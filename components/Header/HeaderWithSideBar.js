@@ -283,9 +283,9 @@ export default function HeaderWithSideBar(props) {
     let MenusList = [];
     let programList = [];
 
-    MenusList.push({ programIcon: "fas fa-caret-square-right", isClicked: false, programId: "SSLABM12100", programName: "SSLABM12100", descr: "Parameter Information", menuId: 1, parentId: -1, subfolder: "tutorial" });
+    MenusList.push({ menuId: 1, parentId: 0, programIcon: "fas fa-caret-square-right", isClicked: false, programId: "SSLABM12100", programName: "SSLABM12100", descr: "Parameter Information", subfolder: "tutorial", filePath: "SSLABM12100", reactYn: "Y", orderIdx: 1 });
 
-    MenusList.push({ programIcon: "fas fa-caret-square-right", isClicked: false, programId: "SSLABM00700", programName: "SSLABM00700", descr: "Item", menuId: 2, parentId: -1, subfolder: "tutorial" });
+    MenusList.push({ menuId: 2, parentId: 0, programIcon: "fas fa-caret-square-right", isClicked: false, programId: "SSLABM00700", programName: "SSLABM00700", descr: "Item", subfolder: "tutorial", filePath: "SSLABM00700", reactYn: "Y", orderIdx: 2 });
 
     programList.push(...MenusList);
 

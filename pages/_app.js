@@ -36,8 +36,8 @@ function MyApp({ Component, pageProps, router }) {
   const { query, isReady } = useRouter();
 
   useEffect(() => {
-    TagManager.initialize({ gtmId: "G-3PCT28TL8Q" });
-    dispatch(setShowLoadingBackdrop(true));
+    // TagManager.initialize({ gtmId: "G-3PCT28TL8Q" });
+    // dispatch(setShowLoadingBackdrop(true));
   }, []);
 
   axios.defaults.headers.common["Authorization"] = "Bearer " + userInfo.token;
