@@ -1,0 +1,432 @@
+/* .Wave {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.ProfilePic {
+  height: 100px;
+}
+
+.LoginPage {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 110px;
+  padding: 0 30px;
+}
+
+.LoginPage .icon {
+  color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.LoginCover {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.LoginCover img {
+  width: 400px;
+}
+
+.LoginForm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.LoginForm form {
+  width: 360px;
+}
+
+.LoginForm h2 {
+  margin: 15px 0;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.LoginForm .InputItem {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0;
+  padding: 5px 0;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.InputItem > div {
+  position: relative;
+  height: 45px;
+}
+
+.InputItem > div > label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.InputItem > div > input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 8px 12px;
+  font-size: 20px;
+  color: #555;
+  box-sizing: border-box;
+}
+
+.LoginForm button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: #2565AE;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 16px 0;
+  cursor: pointer;
+}
+
+.LoginForm button:hover {
+  background-color: #347cc4;
+  color: #fff;
+}
+
+.InputItem input {
+  font-size: 20px !important;
+}
+
+.InputItem.Focus {
+  border-bottom: 2px solid #2565AE;
+}
+
+.InputItem.Focus > .icon > i {
+  color: #2565AE;
+}
+
+.InputItem.Focus > div > label {
+  top: -5px;
+  font-size: 15px;
+}
+
+.InputItem > div > select {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 8px 8px;
+  font-size: 20px;
+  color: #555;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1050px) {
+  .LoginPage {
+    grid-gap: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {  
+  .LoginForm h2 {
+    font-size: 2.4rem;
+    margin: 8px 0;
+  }
+
+  .LoginCover img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .LoginPage {
+    grid-template-columns: 1fr;
+  }
+
+  .LoginCover img {
+    display: none;
+  }
+
+  .Wave {
+    display: none;
+  }
+
+  .LoginForm {
+    justify-content: center;
+  }
+} */
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.Wave {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 40%;
+  z-index: -1;
+}
+
+.ProfilePic {
+  height: 100px;
+}
+
+.LoginPage {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 110px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 110px;
+  padding: 0 30px;
+}
+
+.LoginPage .icon {
+  color: #d9d9d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.LoginCover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column: 1;
+  -ms-grid-column: 1;
+}
+
+.LoginCover img {
+  width: 550px;
+}
+
+.LoginForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  grid-column: 2;
+  -ms-grid-column: 3;
+}
+
+.LoginForm form {
+  width: 360px;
+}
+
+.LoginForm h2 {
+  margin: 15px 0;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.LoginForm .InputItem {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 7% 93%;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0;
+  padding: 5px 0;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.InputItem > div.icon {
+  grid-column: 1;
+  -ms-grid-column: 1;
+}
+
+.InputItem > div.textinput {
+  position: relative;
+  height: 45px;
+  grid-column: 2;
+  -ms-grid-column: 2;
+}
+
+.InputItem > div > label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 22px;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.InputItem > div > input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 8px 12px;
+  font-size: 24px;
+  color: #555;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.LoginForm button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: #34c5b2;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 16px 0;
+  cursor: pointer;
+}
+
+.LoginForm button:hover {
+  background-color: #0a8877;
+  color: #fff;
+}
+
+.InputItem input {
+  font-size: 24px !important;
+}
+
+.InputItem.Focus {
+  border-bottom: 2px solid #34c5b2;
+}
+
+.InputItem.Focus > .icon > i {
+  color: #34c5b2;
+}
+
+.InputItem.Focus > div > label {
+  top: -5px;
+  font-size: 16px;
+}
+
+.InputItem > div > select {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 8px 8px;
+  font-size: 24px;
+  color: #555;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1050px) {
+  .LoginPage {
+    grid-gap: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .LoginForm h2 {
+    font-size: 2.4rem;
+    margin: 8px 0;
+  }
+
+  .LoginCover img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .LoginPage {
+    /* -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; */
+    -ms-grid-columns: 0fr;
+    grid-template-columns: 0fr;
+  }
+
+  .LoginCover img {
+    display: none;
+  }
+
+  .Wave {
+    display: none;
+  }
+
+  .LoginForm {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .LoginForm form {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+   .LoginCover{
+     /* position: fixed !important; */
+     top: 22%;
+     left: 100px !important;
+   }
+}

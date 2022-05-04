@@ -1,0 +1,44 @@
+/* .container-toolbar{
+    position: fixed;
+    z-index: 99;
+    background-color: #f7f7f7;
+    width: 100%;
+} */
+
+/* .Toolbar{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 50px;
+    padding: 0px 10px;    
+    margin: 10px 20px;
+    border: 1px solid #CCF0FE;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #EAF9FF;
+    background-color: #f5f5f5;
+} */
+
+/* .btn-toolbar > img {
+    margin-right: 5px;
+    height: 16px;
+}
+
+.btn-toolbar{
+    background-color: #ffffff !important;
+    border-color: gainsboro;
+    align-items: center;
+} */
+
+.buttonName{
+    margin-bottom: 0px;
+}
+
+@media (max-width: 450px) {
+    .buttonName{
+        display: none;
+    }
+    .btn-toolbar > img {
+        margin-right: 0px;
+    }
+}

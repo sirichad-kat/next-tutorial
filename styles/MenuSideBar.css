@@ -1,0 +1,60 @@
+li.mm-active.LastChild > a {
+  color: #3f6ad8;
+  background: #e0f3ff;
+  font-weight: bold;
+}
+
+#SearchMenu {
+  width: 300px !important;
+}
+
+#SearchMenu a {
+  font-size: 12px;
+}
+
+.rbt input {
+  font-size: 12px;
+}
+
+.rbt button {
+  margin-top: 0px !important;
+}
+
+/* context menu */
+.react-contexify__item:not(.react-contexify__item--disabled):focus {
+    background-color: #3f6ad8;
+}
+
+.react-contexify__item:not(.react-contexify__item--disabled):hover
+  > .react-contexify__item__content,
+.react-contexify__item:not(.react-contexify__item--disabled):focus
+  > .react-contexify__item__content {
+    background-color: #e0f3ff;
+    color:#212529;
+}
+
+.react-contexify__item:not(.react-contexify__item--disabled):hover
+  > .react-contexify__submenu {
+    background-color: #e0f3ff;
+    color:#212529;
+}
+
+.react-contexify__item__content {
+  display: flex;
+  align-items: baseline;
+}
+
+.react-contexify__item__content i {
+  padding-right: 5px;
+}
+
+.MuiCollapse-wrapperInner > ul{
+  padding-left: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .MuiDrawer-root {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+}

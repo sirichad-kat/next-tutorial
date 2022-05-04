@@ -1,0 +1,22 @@
+.MenuStructure .Body {
+  padding: 10px 15px;
+}
+
+.MenuDetail .Body {
+  padding: 30px;
+}
+
+.MenuStructure .Body .Menu-Control {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .MenuStructure .Body .Menu-Control button {
+  margin-bottom: 0px !important;
+  font-size: inherit;
+}
+
+.MenuStructure .Body .Menu-Control button i {
+  font-size: 14px;
+} */
